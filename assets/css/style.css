@@ -58,3 +58,76 @@
     border-radius: 8px;
 }
 /* End Header */
+
+/* Section-one */
+.section-one {
+    background: url(../images/background1.jpg);
+    padding: 150px 0px;
+    position: relative;
+}
+
+.section-one::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.section-one .inner-wrap {
+    position: relative;
+}
+
+.section-one .inner-wrap .inner-sub-title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-one .inner-wrap .inner-title {
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.section-one .inner-wrap .inner-desc {
+    color: white;
+    margin-bottom: 30px;
+}
+/* End Section-one */
+
+/* Button */
+.button {
+    color: var(--color-text-one);
+    background-color: white;
+    border: 2px solid white;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button-two {
+    background-color: var(--color-two);
+    border-color: var(--color-two);
+}
+
+.button-two:hover {
+    background: white;
+    border-color: white;
+}
+
+.button-two-outline {
+    background: transparent;
+}
+.button-two-outline strong {
+    color: white;
+}
+
+.button-two-outline:hover {
+    background: var(--color-two);
+    border-color: var(--color-two);
+}
+/*End Button */
